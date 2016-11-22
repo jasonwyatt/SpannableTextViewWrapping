@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="co.jasonwyatt.spannabletextviewwrapping.MainActivity"
+    >
+
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which is long enough to wrap, Hello World!"
+        app:mode="red"
+        />
+
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which is long enough to wrap, Hello World!"
+        app:mode="monospace"
+        />
+
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which is long enough to wrap, Hello World!"
+        app:mode="absolutesize"
+        app:sizevalue="25"
+        />
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which is long enough to wrap, Hello World!"
+        app:mode="relativesize"
+        app:sizevalue="1.5"
+        />
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which is long enough to wrap, Hello World!"
+        app:mode="scalex"
+        app:sizevalue="2"
+        />
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which should be long enough to wrap, Hello World!"
+        app:mode="subscript"
+        />
+    <co.jasonwyatt.spannabletextviewwrapping.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Here is some text which should be long enough to wrap, Hello World!"
+        app:mode="superscript"
+        />
+</LinearLayout>

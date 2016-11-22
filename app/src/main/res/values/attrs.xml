@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="mode" format="enum">
+            <enum name="monospace" value="0"/>
+            <enum name="superscript" value="1"/>
+            <enum name="subscript" value="2"/>
+            <enum name="scalex" value="3"/>
+            <enum name="absolutesize" value="4"/>
+            <enum name="relativesize" value="5"/>
+            <enum name="red" value="6"/>
+        </attr>
+        <attr name="sizevalue" format="float"/>
+    </declare-styleable>
+</resources>
